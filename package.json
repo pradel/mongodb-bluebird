@@ -1,0 +1,21 @@
+{
+  "name": "mongodb-bluebird",
+  "version": "0.0.1",
+  "description": "A simple package mongodb promise",
+  "main": "./lib",
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "bluebird",
+    "promise"
+  ],
+  "author": "Léo Pradel",
+  "dependencies": {
+    "mongodb": "^1.4.19",
+    "bluebird": "^2.3.10"
+  }
+}
