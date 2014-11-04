@@ -68,6 +68,24 @@ users.findById('507f191e810c19729de860ea').then(function(user) {
 * `ensureIndex(fieldOrSpec[, options])`
 * `dropIndex(name)`
 
+###Db
+[MongoDB Db](http://mongodb.github.io/node-mongodb-native/api-generated/db.html)
+
+* `close()`
+* `admin()`
+* `collectionNames([collectionName][, options])`
+* `collections()`
+* `eval(code[, parameters][, options])`
+* `logout()`
+* `authenticate(username, password[, options])`
+* `addUser(username, password[, options])`
+* `removeUser(username[, options])`
+* `createCollection(collectionName[, options])`
+* `dropCollection(collectionName)`
+* `renameCollection(fromCollection, toCollection[, options])`
+* `dropDatabase()`
+* `stats([, options])`
+
 ##TODO
 
 * Write all functions
