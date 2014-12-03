@@ -1,6 +1,6 @@
 {
   "name": "mongodb-bluebird",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple package mongodb promise",
   "main": "./lib",
   "scripts": {
