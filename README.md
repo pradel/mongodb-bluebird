@@ -44,6 +44,22 @@ users.findById('507f191e810c19729de860ea').then(function(user) {
 });
 ```
 
+### Get a collection
+
+```
+var users = db.collection('users');
+```
+
+The _id field will be automatically converted into ObjectId.
+If you want to convert automatically some other fields into ObjectId just pass an array as second parameter :
+
+```
+var users = db.collection('users', {
+	ObjectIds: [your fields]
+});
+```
+
+
 ## API
 
 ###Collection
@@ -88,5 +104,4 @@ users.findById('507f191e810c19729de860ea').then(function(user) {
 
 ##TODO
 
-* Write all functions
 * Write some tests
