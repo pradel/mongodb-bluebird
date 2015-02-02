@@ -62,6 +62,9 @@ var users = db.collection('users', {
 
 ## API
 
+###Top Level
+* `mongodb` - raw mongodb driver
+
 ###Collection
 [MongoDB Collection](http://mongodb.github.io/node-mongodb-native/api-generated/collection.html)
 [MongoDB Queries](http://mongodb.github.io/node-mongodb-native/markdown-docs/queries.html)
