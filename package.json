@@ -1,6 +1,6 @@
 {
   "name": "mongodb-bluebird",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A simple package mongodb promise",
   "main": "./lib",
   "scripts": {
@@ -19,8 +19,8 @@
   ],
   "author": "Léo Pradel",
   "dependencies": {
-    "mongodb": "^1.4.23",
-    "bluebird": "^2.3.11",
+    "mongodb": "^1.4.31",
+    "bluebird": "^2.9.9",
     "check-types": "^1.4.0"
   }
 }
