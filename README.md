@@ -82,6 +82,7 @@ var users = db.collection('users', {
 * `findAndModify(query, sort, doc[, options])`
 * `findAndRemove(query, sort[, options])`
 * `group(keys, condition, initial, reduce, finalize, command[, options])`
+* `aggregate(array[, options])`
 * `drop()`
 * `rename(newName[, options])`
 * `createIndex(fieldOrSpec[, options])`
