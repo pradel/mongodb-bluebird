@@ -21,7 +21,8 @@
   "dependencies": {
     "bluebird": "^3.3.1",
     "check-types": "^6.0.0",
-    "mongodb": "^2.1.7"
+    "mongodb": "^2.1.7",
+    "object-assign": "^4.0.1"
   },
   "devDependencies": {
     "mocha": "^2.4.5",
