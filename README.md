@@ -1,5 +1,7 @@
 # mongodb-bluebird
 
+[![Build Status](https://travis-ci.org/pradel/mongodb-bluebird.svg?branch=master)](https://travis-ci.org/pradel/mongodb-bluebird)
+
 Add promise to the [node-mongodb-native](https://github.com/mongodb/node-mongodb-native).
 
 ## Installation
