@@ -15,7 +15,7 @@ mongo.connect("mongodb://localhost:27017/mongodb-bluebird").then(function(db) {
 
     return users.find().then(function(users) {
         console.log(users);
-        db.close();
+        return db.close();
     });
 }).catch(function(err) {
     console.error(err);
